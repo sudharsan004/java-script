@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+}
+
+
+.container{
+    position: relative;
+    top: 50px;
+}
+.red{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    background-color: red;
+    display: inline-block;
+}
+.violet{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    background-color: violet;
+    display: inline-block;
+}
+.green{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    background-color: green;
+    display: inline-block;
+}
+.blue{
+    position: relative;
+    height: 20px;
+    width: 60px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    /* background-color: green; */
+    translate: transform(50%,-50%);
+    width: 400px;
+    height: 400px;
+    border-radius: 200px 200px;
+}

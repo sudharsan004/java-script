@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+    background:radial-gradient(white,rgb(162, 225, 250));
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 700px; */
+    width: 350px;
+}
+img{
+    object-fit: cover;
+}
+h3,h1{
+    font-family: cursive;
+}
+h5{
+    font-family: cursive;
+    position: absolute;
+    bottom: 0;
+}
