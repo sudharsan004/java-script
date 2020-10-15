@@ -12,6 +12,6 @@ button.addEventListener('click',()=>{
     })
     .catch(()=>{
         console.log('error');
-        
     })
 })
+
